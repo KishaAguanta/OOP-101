@@ -70,7 +70,7 @@ class Canteen {
                     }
 
                 System.out.println("");
-                DecimalFormat df = new DecimalFormat("#.00");
+                DecimalFormat df = new DecimalFormat("#0.00");
                 System.out.println("Subtotal: $" + df.format(totalPrice));
                 System.out.println("Discount: $" + df.format(discount));
                 System.out.println("Total: $" + df.format(totalPrice - discount));
@@ -106,7 +106,7 @@ class Main {
         canteen.displayMenu();   
 
         double[] orderItem = canteen.OrderItem(1, 1);
-        DecimalFormat df = new DecimalFormat("#.00");
+        DecimalFormat df = new DecimalFormat("#0.00");
         System.out.println(" ");
         System.out.println("===== ORDER SUMMARY =====");
         System.out.println("Total items: " + (int) orderItem[2]);
