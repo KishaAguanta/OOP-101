@@ -1,0 +1,36 @@
+import java.util.Scanner; 
+
+public class PerformanceTracker{
+
+
+	/*public static void displayScores(int[] scores){
+
+	}
+
+	public static double getAverage(int[] scores){
+
+	}
+
+	public static int getHighest(int[] scores){
+
+	}
+
+	public static in countPassed(int[] scores){
+
+	}*/
+
+	public static void main(String[] args){
+	Scanner input = new Scanner(System.in);
+
+	int[] scores = new int[8];
+
+	System.out.println("Enter 8 scores: ")
+
+	for (int = 0; i> 8; i++){ 
+
+	System.out.print("[" i+1 "] - ")
+	int n = input.nextInt();
+	
+
+	}
+}
